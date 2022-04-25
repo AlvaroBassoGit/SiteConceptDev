@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    padding: 20px;
+    background: #363434;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(133, 116, 116);
+  }
+
+  .topnav a {
+    float: left;
+    display: block;
+    color: #2b2424;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;  
+  }
+
+  .card {
+    padding: 2px;
+    background-color: white;
+    background-image: url(logo.jpeg);
+    background-position: right;
+    background-repeat: no-repeat;
+ }
+  
+  .footer {
+    padding: 10px;
+    text-align: center;
+    background: rgb(53, 52, 52);
+    background-image: url(logo.jpeg);
+    background-size: 150px;
+    background-position: left;
+    background-repeat: no-repeat;
+  }
+  
+  .button {
+    background-color:  #696969;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 10px 24px;
+}
+  
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
